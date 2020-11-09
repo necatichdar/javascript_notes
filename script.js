@@ -131,6 +131,19 @@ console.log(val); //10
 console.log(typeof val); //number
 console.log(val.length); //undefined
 
+val = Number('a');
 
+console.log(val); //NaN
+console.log(typeof val); //number
+console.log(val.length); //NaN
 
+val = Number([1,2,3,4]);
+
+console.log(val); //NaN
+console.log(typeof val); //number
+console.log(val.length); //NaN
+
+val = parseInt('10');
+val = parseInt('10.5');
+val = parseFloat('10.5');
 */
