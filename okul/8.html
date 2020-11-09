@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <script>
+        var dizi = [2, 3, 4, 5, 6, 7, 8, 9];
+        console.log("Splice Metodu Tek Parametreli");
+        console.log("splice() metodu isletilmeden önce ");
+        console.log(dizi);
+        var silinendizi = dizi.splice(2, 4); //İlki : Başlangıç noktası nerden başlıcaz,, İkincisi kaç tane
+        console.log("splice(2,4) metodu isletildikten sonra ");
+        console.log(dizi);
+        console.log("splice(2,4) ile silinen elemanlar dizisi ");
+        console.log(silinendizi);
+
+        console.log("Splice Metodu Çok Parametreli");
+        var dizi2 = [2, 3, 4, 5, 6, 7, 8, 9];
+        console.log("splice() metodu isletilmeden önce ");
+        console.log(dizi2);
+        var silinendizi2 = dizi2.splice(2, 3, 10, 20, 30, 40, 50); //2 den başla 3 tanesini silerek diğerlerini araya yaz.
+        console.log("splice(2,3,10,20,30,40,50) çok parametreli kosulduktan sonra");
+        console.log(dizi2);
+        console.log("splice(2,3,10,20,30,40,50) çok parametreli ile silinen elemanlar dizisi");
+        console.log(silinendizi2);
+
+
+        console.log("Splice 0 Eleman Silinecek Sekilde Cok Parametreli");
+        var dizi3 = [2, 3, 4, 5, 6, 7, 8, 9];
+        console.log("splice 0 metodu isletilmeden once ");
+        console.log(dizi3);
+        var silinendizi3 = dizi3.splice(2, 0, 10, 20, 30, 40, 50);
+        console.log("splice(2,0,10,20,30,40,50) cok parametreli kosulduktan sonra");
+        console.log(dizi3);
+        console.log("splice(2,0,10,20,30,40,50) cok parametreli ile silinen elemanlar dizisi");
+        console.log(silinendizi3);
+
+        console.log("IndexOf Elemaninin Kullanimi");
+        var dizi4 = [2, 3, 4, 2, 6, 3, 8, 4, 6];
+        var indis = dizi4.indexOf(6);
+        console.log("Dizideki Ilk 6 Elemanin Indisi = " + indis);
+
+        console.log("LastIndexOf Elemaninin Kullanimi");
+        var indis = dizi4.lastIndexOf(6);
+        console.log("Dizideki Son 6 Elemanin Indisi = " + indis);
+    </script>
+</head>
+
+</html>

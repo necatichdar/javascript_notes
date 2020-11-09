@@ -1,0 +1,67 @@
+<html>
+
+<head>
+    <script>
+        //conda install kivy -c conda-forge yaz
+        var str = "abcAbc";
+        var dIfade = /a/gi;
+        var sonuc =
+            str.match(dIfade);
+        console.log(sonuc);
+        var ptr = "Javascrıpt Ders' Javascript Konulari";
+        var pIfade = /javascript/gi;
+        var ponuc = ptr.replace(pIfade, "Html5");
+        console.log(ponuc);
+
+        var ktr = "JAVASCRIPT Dersi Javascript Konulari";
+        var sIfade = /pt/gi;
+        var tonuc = ktr.search(sIfade);
+        console.log(tonuc);
+        /*
+
+        ^   -> Karakter dizisinin başlangıcı
+        $   -> Karakter dizisininin sonu
+        b\  -> Duzenli ifadeye uygun olabilecek metin parcalari, karakter dizisi icerisindeki kelimelerin başında veya sonunda aranır.
+
+        \B  -> Düzenli ifadeye uygun olabilecek metin parçaları, karakter dizisi içerisindeki kelimelerin içinde aranır 
+        ?=  -> Bir karakter dizisi içindeki belirtilen referans metnin önüne düzenli ifade ile eşleşebilecek metin gruplarını arar.
+        ?!  -> Karakter dizisi içerisindeki bir referans metin ile takip edilmeyen alt metinleri, düzenli ifade ile eşleştirmek için kullanılır.
+        
+        {x} -> x defa tekrarlanmış olması gerekir
+        {x, }-> x defa ve daha fazla tekrarlanmış olması gerekir.
+
+        +   -> 1 yada daha fazla tekrar
+        ?   -> Ya 1 tane olacak yada hiç olmayacak
+        *   -> Ya hiç ya sonsuz
+        [abc] -> Belirtilen karakterlerden biri
+        [a-e] -> a ve e arasindan bir karakter
+
+        [Aabc]-> bu karakterlerden biri ile ba§layamaz
+        a | b   -> ya a ya b
+        .       -> yeni satir karakteri hariç herhangi birseyle eslesir.
+        \w      -> bir sözcük karakteri ile(A-Z,a-z,0-9 veya _) eslesir.îngiliz alfabesi geçerlidi
+        \W      -> sözcük karakteri disinda herhangi birseyle eslesir.
+        \d      -> ondalik bir basamak eslesir. (0-9)
+        \D      -> rakam disinda bir karakter ile eslesir
+        \s      -> herhangi bir bosluk karakteri ile (bosluk, sekme, yeni satir gibi)
+        \S      -> bosluk karakteri diçindaki herhangi bir karakterle eslesir
+        \0      -> null
+
+
+        \n	->	yeni satir karakteri ile
+        \f -> sonraki sayfaya geçme karakteri ile
+        \r	->	döndürme karakteri ile
+        \t	->	tab karakteri ile
+        \v	->	dikey tab karakteri ile
+        \xdd -> onaltilik tabanda tanimlanmiç dd sayisinin ASCII karsiligi
+        \udddd-> onaltilik tabanda dddd sayisinin Unicode karsilisi
+        ()     -> düzenli ifade içinde grup tanimlamak için kullanilir. Karakter dizisi içindeki alt
+        eslesmeleri eide etmek için kullanilir. | karakterin kapmasini sinirlamak için kullanilir.Nicelik belirten karakterlerin kapsamini tanimlamak için
+        (?:)	-> düzenli ifade içerisinde ait grup oluçturmak için kullanilir. () ifadeden farkli olarak bu
+        karakter alt eslesmeleri yakalayamaz.
+        \	-> ardindan gelen karakterin ôzel bir karakter olup olmadigini belirtmek için kullanilir.
+        */
+    </script>
+</head>
+
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+<title>Javascript Hatali Kod</title>
+<script type="text/javascript">
+var toplam =0;
+var say=1;
+var sayi;
+while(sayi!=0)
+{
+	sayi = prompt(say+". sayi giriniz.   :");
+	toplam=toplam+Number(sayi);
+	if(sayi != 0)
+	{
+		say++;
+	}
+}
+say--;
+document.write(say+" sayinin toplami :" +toplam);
+
+/*
+var dizimiz = [8, "2", 14, 16, 19, 7, 8, 47, 45, 61, 46];
+		
+function toString(arr){
+	var dizi = arr.join(",");
+	document.write(dizi+"\n");
+}
+toString(dizimiz);		
+*/
+</script>
+</head>
+<body>
+</body>
+</html>

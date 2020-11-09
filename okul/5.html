@@ -1,0 +1,29 @@
+<html>
+
+<head>
+    <script>
+        var dizi = ["css", "javascript", "html5"];
+        // boolean literali true veya false olabilir
+        // tam sayi 10'luk ,8'lik, 16'lik
+        // 12e+3 => 12000 (12x10*3)
+
+        //object literali
+        var ball = {
+            x: 12, y: 12, radius: 30
+        };
+        delete ball;
+        delete ball.x;
+        delete ball.y;
+
+        var ucgen = { kenarl: 10, kenar2: 8, kenar3: 6 }
+
+        "kenarl" in ucgen; // bu ifade true dondurur
+        "kenar5" in ucgen; // false dondurur
+
+        var numbers = new Array(10, 20, 30, 40, 50);
+        "length" in numbers; // true
+        5 in numbers; // false
+    </script>
+</head>
+
+</html>
