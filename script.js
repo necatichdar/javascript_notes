@@ -80,9 +80,24 @@ console.log(fullname); //Necati
                 return 0;
             };
 
+*/
 
+// Tür Dönüşümü
+/*
 
+//İki stringi toplarsak birleştirme işlemi yapmış oluruz.
+let num1 = "5";
+let num2 = '10';
 
+console.log(num1+num2); //510
+console.log(typeof num1); //string
 
+let num1 = Number("5");
+let num2 = Number("10");
+
+let total = num1 + num2;
+
+console.log(total); //15
+console.log(typeof total); //number
 
 */
