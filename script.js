@@ -100,4 +100,37 @@ let total = num1 + num2;
 console.log(total); //15
 console.log(typeof total); //number
 
+//Sayiyi stringe cevirme
+let val;
+val = String(10);
+
+console.log(val); //10
+console.log(typeof val); //string
+console.log(val.length); //10
+
+//bool turundekini stringe cevirme
+val = String(true);
+console.log(val); //true
+console.log(typeof val); //string
+console.log(val.length); //4
+
+//Date to string
+val = String(new Date());
+val = String(new Date().getDay());
+
+//Array'i stringe cevirme
+val = String([1,2,3,4]);
+
+val = (10).toString();
+val = (false).toString();
+
+//Stringi sayiya cevirme
+val = Number('10');
+
+console.log(val); //10
+console.log(typeof val); //number
+console.log(val.length); //undefined
+
+
+
 */
