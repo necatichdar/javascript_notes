@@ -12,7 +12,17 @@ console.clear();
 
 */
 
+//Veri Türleri
+/*
+    Basit veri türleri
+String (dize), Number (sayi). Boolean (mantiksal) 
+    Bileşik veri türleri 
+Array (dlzi), Object (nesne)
+Özel verl türleri 
+Undefined (tanımsiz). Null (bos)
 
+
+*/
 //Degiskenler
 
 var age;
@@ -36,9 +46,11 @@ console.log(fullname); //Necati
 
     var , let , const
 
+    var = Standart değişken tanımlamakta kullanılır.
     var yerine let kullanabiliriz.
+    let = Blok kapsamlı yerel değişken tanımlamakta kullanılır.
 
-    const: tanimladigimiz degiskeni tekrar degistiremeyiz.
+    const: tanimladigimiz degiskeni tekrar degistiremeyiz. Sabit değişken tanımlamakta kullanılır.
     const email = "abc@gmail.com";
     console.log(email);
 */
@@ -147,4 +159,25 @@ val = parseInt('10');
 val = parseInt('10.5');
 val = parseFloat('10.5');
 */
-//Deneme+
+/*
+ÖZEL OPERATÖRLER
++  = Birlestirme operatoru
+,  = Virgül operatörü
+    for(b = 0; b < 10; b++, a++){
+        c = b + a;
+    }
+this = Oluşturulmuş olan bir object’i (nesneyi) işaret etmek için kullanılır
+in = Herhangi bir object’in (nesnenin) bir özelliğe sahip olup olmadığını sınamak için
+kullanılır.
+    ozellik in a
+    a = new Object();
+    a.adi = "Volkan";
+    "adi" in a (true)
+    "soyadi" in a (false)
+instanceof = Herhangi bir object’in (nesnenin) özel bir class (sınıf) örneği olup olmadığını sınamak için
+kullanılır.
+*/
+
+/*
+
+*/
