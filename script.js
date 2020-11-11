@@ -11,18 +11,6 @@ console.warn("Bir Uyari olustu");
 console.clear();
 
 */
-
-//Veri Türleri
-/*
-    Basit veri türleri
-String (dize), Number (sayi). Boolean (mantiksal) 
-    Bileşik veri türleri 
-Array (dlzi), Object (nesne)
-    Özel verl türleri 
-Undefined (tanımsiz). Null (bos)
-
-
-*/
 //Degiskenler
 
 var age;
@@ -36,6 +24,15 @@ console.log(fullname); //Necati Cuhadar
 
 fullname = 'Necati';
 console.log(fullname); //Necati
+
+let isim = "Necati";
+
+if (true) {
+    let isim = "Cuhadar";
+    console.log(isim);
+}
+
+console.log(isim);
 
 //Degisken Tanimlama Kurallari
 /*
@@ -55,6 +52,31 @@ console.log(fullname); //Necati
     console.log(email);
 */
 
+/*
+Değişkenlerin isimlendirme kuralları:
+1. Değişken isimleri her zaman anlamlı olarak kullanılmalıdır.
+2. Değişken isimleri harfler ile başlayabilir. (Türkçe karakter kullanılamaz.)
+3. Değişken isimleri _ (Alt çizgi) işareti ile başlayabilir.
+4. Değişken isimleri $ (Dolar) işareti ile başlayabilir.
+5. Değişken isimleri hiçbir zaman bir rakam ile başlayamaz. Fakat rakamlar değişken isimlerinde ilk karakterden sonra kullanılabilir.
+6. Değişken isimleri büyük harf / küçük harf duyarlıdır.
+7. Aynı değişken isimleri kullanılacaksa, değişkenin değeri her zaman son yazılan değişkenin depoladığı veri olacaktır.
+8. Değişken isimleri Javascript tarafından rezerve edilmiş kelimeler olamaz.
+9. Aynı değişken adı değişken ifadelerinde kullanılamaz.
+*/
+
+
+//Veri Türleri
+/*
+    Basit veri türleri
+String (dize), Number (sayi). Boolean (mantiksal)
+    Bileşik veri türleri
+Array (dlzi), Object (nesne)
+    Özel verl türleri
+Undefined (tanımsiz). Null (bos)
+
+
+*/
 
 //Degisken Turleri
 /*
@@ -179,5 +201,19 @@ kullanılır.
 */
 
 /*
+    eval() : Kendisine parametre olarak verilen degerleri Javascript kodlamasina cevirerek komut gibi calistirir ve
+            olusan degeri geriye dondurur.
 
+    var degerbir = 10;
+    var degeriki = 30;
+
+    var sonuc = "degerbir+degeriki";
+    document.write(sonuc); //degerbir+degeriki
+    var sonuc = eval("degerbir+degeriki")";
+    document.write(sonuc); //40
+
+    trim() : Değişken içeriğinin varsa başındaki ve sonundaki tüm boşlukları temizleyerek değeri geriye döndürür.
+
+    slice() : Kendisine verilecek olan parametreler ile tanımlanmış değişken içerği aralığında bulunan değerleri kopyalayarak
+                yeni bir içerik oluşturur. Ve oluşturduğu değeri geriye döndürür
 */
