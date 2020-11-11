@@ -147,3 +147,4 @@ val = parseInt('10');
 val = parseInt('10.5');
 val = parseFloat('10.5');
 */
+//Deneme
