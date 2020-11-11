@@ -18,7 +18,7 @@ console.clear();
 String (dize), Number (sayi). Boolean (mantiksal) 
     Bileşik veri türleri 
 Array (dlzi), Object (nesne)
-Özel verl türleri 
+    Özel verl türleri 
 Undefined (tanımsiz). Null (bos)
 
 
