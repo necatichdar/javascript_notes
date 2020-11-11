@@ -235,6 +235,14 @@ kullanılır.
     repeat() : Kendisine parametre olarak verilen değer doğrultusunda değişken içeriğini tekrar edip kopyalayarak, yeni bir
                 içerik oluşturur ve oluşturduğu içeriği geriye döndürür.
 
+    valueOf() : Üzerinde çalışılan değişken değerinin tam anlamıyla aktarımını sağlayacak yeni bir içerik oluşturur 
+                ve oluşturduğu içeriği geriye döndürür.
+
+    indexOf() : Verilen değeri arar ve ilk işleşmeyi sağlayan değişken içeriğinin indisini geri döndürür.
+                    Yoksa gerıye -1 döndürür.
+    lastindexOf():
+    search():
+
 */
 var icerik = "Necati Cuhadar Javascript";
 document.write("<br/>");
