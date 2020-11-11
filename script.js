@@ -216,4 +216,29 @@ kullanılır.
 
     slice() : Kendisine verilecek olan parametreler ile tanımlanmış değişken içerği aralığında bulunan değerleri kopyalayarak
                 yeni bir içerik oluşturur. Ve oluşturduğu değeri geriye döndürür
+                baslangic-bitis
+
+    substring() : Kendisine verilecek olan parametreler ile tanımlanmış
+                değişken içeriği aralığında bulunan değerleri kopyalayarak yeni bir içerik oluşturur ve
+                oluşturduğu değer geriye döndürür.
+                Baslangıç - Bitiş
+
+    substr() : Kendisine verilecek olan parametreler ile tanımlanmış
+                değişken içeriği aralığında bulunan değerleri kopyalayarak yeni bir içerik oluşturur ve
+                oluşturduğu değer geriye döndürür.
+                Baslangıç - Bitiş(kaç karakter ilerlesin)
+                - deger alabilir.
+    
+    concat() : Üzerinden çalışılan değişkene parametrik olarak verilen değişken veya değişkenleri dahil ederek yeni
+                bir içerik oluşturur. Oluşturduğu değeri geriye döndürür.
+    
+    repeat() : Kendisine parametre olarak verilen değer doğrultusunda değişken içeriğini tekrar edip kopyalayarak, yeni bir
+                içerik oluşturur ve oluşturduğu içeriği geriye döndürür.
+
 */
+var icerik = "Necati Cuhadar Javascript";
+document.write("<br/>");
+document.write(icerik);
+document.write("<br/><br/>");
+var sonuc = icerik.slice(3, 4);//3 ten itibaren tum icerigi alir.
+document.write(sonuc);
